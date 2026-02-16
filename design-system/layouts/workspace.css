@@ -1,0 +1,57 @@
+/**
+ * KodNest Premium Build System - Workspace Layout
+ * Primary Workspace (70%) + Secondary Panel (30%)
+ */
+
+.workspace-container {
+  display: flex;
+  min-height: calc(100vh - 200px);
+}
+
+.primary-workspace {
+  flex: 0 0 70%;
+  padding: var(--space-4);
+  border-right: var(--border-width) solid var(--color-border);
+}
+
+.secondary-panel {
+  flex: 0 0 30%;
+  padding: var(--space-4);
+  background-color: var(--color-background);
+}
+
+.secondary-panel-section {
+  margin-bottom: var(--space-4);
+}
+
+.secondary-panel-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: var(--weight-semibold);
+  margin-bottom: var(--space-2);
+}
+
+.secondary-panel-text {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-3);
+}
+
+.prompt-box {
+  padding: var(--space-2);
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-size: var(--text-xs);
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-2);
+  overflow-x: auto;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}

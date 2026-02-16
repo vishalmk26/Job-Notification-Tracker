@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KodNest Premium Build System - Design System</title>
+  
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="layouts/top-bar.css">
+  <link rel="stylesheet" href="layouts/context-header.css">
+  <link rel="stylesheet" href="layouts/workspace.css">
+  <link rel="stylesheet" href="layouts/proof-footer.css">
+  <link rel="stylesheet" href="components/buttons.css">
+  <link rel="stylesheet" href="components/cards.css">
+  <link rel="stylesheet" href="components/inputs.css">
+  <link rel="stylesheet" href="components/states.css">
+</head>
+<body>
+  
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-left">KodNest Premium Build System</div>
+    <div class="top-bar-center">Design System Reference</div>
+    <div class="top-bar-right">
+      <span class="status-badge shipped">Design System</span>
+    </div>
+  </div>
+
+  <!-- Context Header -->
+  <div class="context-header">
+    <h1 class="context-header-title">Design System Reference</h1>
+    <p class="context-header-subtitle">Calm, intentional components for serious product companies.</p>
+  </div>
+
+  <!-- Workspace Container -->
+  <div class="workspace-container">
+    
+    <!-- Primary Workspace -->
+    <div class="primary-workspace">
+      
+      <div class="card" style="margin-bottom: 24px;">
+        <div class="card-header">
+          <h3 class="card-title">Typography</h3>
+          <p class="card-subtitle">Serif headings, clean sans-serif body text.</p>
+        </div>
+        <div class="card-body">
+          <h1>Heading 1 - Crimson Pro</h1>
+          <h2>Heading 2 - Crimson Pro</h2>
+          <h3>Heading 3 - Crimson Pro</h3>
+          <p>Body text uses Inter at 16px with 1.6 line-height. Maximum width is 720px for optimal readability. No decorative fonts, no random sizes.</p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom: 24px;">
+        <div class="card-header">
+          <h3 class="card-title">Buttons</h3>
+          <p class="card-subtitle">Primary solid, secondary outlined.</p>
+        </div>
+        <div class="card-body">
+          <div style="display: flex; gap: 16px; margin-bottom: 16px;">
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+            <button class="btn btn-primary" disabled>Disabled</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom: 24px;">
+        <div class="card-header">
+          <h3 class="card-title">Inputs</h3>
+          <p class="card-subtitle">Clean borders, clear focus states.</p>
+        </div>
+        <div class="card-body">
+          <label class="label">Label Text</label>
+          <input type="text" class="input" placeholder="Enter text here">
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom: 24px;">
+        <div class="card-header">
+          <h3 class="card-title">Colors</h3>
+          <p class="card-subtitle">Maximum 4 colors across entire system.</p>
+        </div>
+        <div class="card-body">
+          <div style="display: flex; gap: 16px;">
+            <div style="width: 80px; height: 80px; background: #F7F6F3; border: 1px solid #D4D2CC;"></div>
+            <div style="width: 80px; height: 80px; background: #111111;"></div>
+            <div style="width: 80px; height: 80px; background: #8B0000;"></div>
+            <div style="width: 80px; height: 80px; background: #2D5016;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Secondary Panel -->
+    <div class="secondary-panel">
+      <div class="secondary-panel-section">
+        <h3 class="secondary-panel-title">Philosophy</h3>
+        <p class="secondary-panel-text">Calm, intentional, coherent, confident. Not flashy, not loud, not playful.</p>
+      </div>
+
+      <div class="secondary-panel-section">
+        <h3 class="secondary-panel-title">Spacing Scale</h3>
+        <div class="prompt-box">8px, 16px, 24px, 40px, 64px</div>
+        <p class="secondary-panel-text">Never use random spacing. Whitespace is part of design.</p>
+      </div>
+
+      <div class="secondary-panel-section">
+        <div class="action-buttons">
+          <button class="btn btn-secondary">View Documentation</button>
+          <button class="btn btn-secondary">Copy Tokens</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Proof Footer -->
+  <div class="proof-footer">
+    <div class="proof-checklist">
+      <div class="proof-item">
+        <div class="proof-checkbox checked"></div>
+        <span>Tokens Defined</span>
+      </div>
+      <div class="proof-item">
+        <div class="proof-checkbox checked"></div>
+        <span>Components Built</span>
+      </div>
+      <div class="proof-item">
+        <div class="proof-checkbox checked"></div>
+        <span>Layouts Created</span>
+      </div>
+      <div class="proof-item">
+        <div class="proof-checkbox checked"></div>
+        <span>System Ready</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+/**
+ * KodNest Premium Build System - Context Header
+ * Large serif headline, 1-line subtext, clear purpose
+ */
+
+.context-header {
+  padding: var(--space-5) var(--space-4) var(--space-4);
+  border-bottom: var(--border-width) solid var(--color-border);
+}
+
+.context-header-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text-primary);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-2);
+}
+
+.context-header-subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-normal);
+  max-width: var(--text-max-width);
+}

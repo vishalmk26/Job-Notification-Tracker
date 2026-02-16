@@ -1,0 +1,17 @@
+/**
+ * KodNest Premium Build System - Effects Tokens
+ */
+
+:root {
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 200ms ease-in-out;
+  
+  /* Borders */
+  --border-width: 1px;
+  --border-style: solid var(--color-border);
+}
